@@ -26,15 +26,18 @@ body {
 }
 
 h1 {
+  font-family: "Rubik", sans-serif; /* Applying Rubik font to the hero heading */
   font-size: 2.5em; /* Main heading font size */
   margin-bottom: 10px; /* Space between main heading and subheading */
-  color: #004080; /* Main heading color - Blue */
+  color: #012e5b; /* Main heading color - Blue */
+  font-weight: 500;
 }
 
 h2 {
   font-size: 1.5em; /* Subheading font size */
   margin-bottom: 20px; /* Space between subheading and paragraph */
   color: #84412f; /* Subheading color - Light Blue */
+  font-weight: 400;
 }
 
 p {
@@ -46,7 +49,7 @@ p {
   width: 200px; /* Adjust the width of the image */
   height: auto; /* Maintain aspect ratio */
   border-radius: 50%; /* Rounded corners for a circular shape */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4); /* Soft shadow */
   margin-bottom: 20px; /* Space between the image and the main heading */
 }
 
@@ -54,15 +57,16 @@ p {
   display: inline-block;
   padding: 10px 20px; /* Button padding */
   margin-top: 20px; /* Space between paragraph and button */
-  background-color: #0066cc; /* Button background color - Light Blue */
+  background-color: #012e5b; /* Button background color - Light Blue */
   color: #fff; /* Button text color - White */
   text-decoration: none; /* Removing underline from the link */
   border-radius: 5px; /* Adding border radius for rounded corners */
   transition: background-color 0.3s ease; /* Smooth transition for hover effect */
-  font-size: 25px;
+  font-size: 22px;
+  font-weight: 100;
 }
 
 /* Hover effect on the button */
 .cta-button:hover {
-  background-color: #004080; /* Darker blue on hover */
+  background-color: #84412f; /* Darker blue on hover */
 }
